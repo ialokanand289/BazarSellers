@@ -1,5 +1,14 @@
 <?php
 //Template Name: Log In Page
+global $wp_session;
+// $wp_session['user_contact'] = array( 'email  ' => 'user@name.com' );// An array
+// $user_ID = get_current_user_id();
+// // $user_ID=session_id();  
+//     echo '<pre>';
+//     print_r($user_ID);
+//     echo '</pre>';
+//     die();
+
 get_header();
 
 ?>
@@ -86,7 +95,6 @@ get_header();
                               jQuery("#info").delay(3000).fadeOut();
                               window.location.href='<?= site_url()?>/index.php/home';
                             }
-                             
                         
                           
                           }
